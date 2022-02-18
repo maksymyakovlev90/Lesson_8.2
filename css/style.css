@@ -1,0 +1,85 @@
+@import "null.css";
+
+h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 130%;
+    color: #1E212C;
+    margin: 0 0 30px 30px;
+}
+
+h6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin: 15px 0 15px 30px;
+}
+
+p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    color: #1E212C;
+    margin: 0 0 30px 30px;
+}
+
+p::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 275px;
+    background-color: rgb(0, 0, 0);
+}
+
+.list{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 30px 30px;
+    max-width: 388px;
+    line-height: 20px;
+}
+
+.list li{
+    padding: 0 0 0 30px;
+}
+
+.list li::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../img/Vector.svg) 0 0 / 20px no-repeat;
+    margin: 20px 10px -5px -30px;
+    transition: all 0.3s ease 0s;
+}
+
+.list li:hover::before{
+    transform: rotate(360deg) scale(1.5);
+}
+
+.button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    margin: 0 0 30px 30px;
+    text-align: center;
+    width: 160px;
+    height: 45px;
+    color: white;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+}
+
